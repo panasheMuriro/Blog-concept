@@ -1,0 +1,197 @@
+body{
+  background-image: -webkit-linear-gradient(50deg, #cbe2b0 50%, #f6eec7 50%);
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    color: white;
+
+}
+.container{
+}
+.navbar-one {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    color: white;
+    animation-name: open;
+    animation-duration: 3s;
+}
+@keyframes open {
+  0%{height: 642px}
+  40%{height: 642px}
+  100%{height:90px;}
+
+}
+
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+
+}
+.logo-text{
+}
+
+.footer {
+  top: 100vh;
+  position: relative;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+  background-color: #880000;
+}
+
+.footer-text{
+  padding-top: 20px;
+  font-size: 50px;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}
+/* .form-group{
+  font-family: "Helvetica Neue";
+} */
+.post{
+  padding-bottom: 10%;
+}
+.two{
+  padding-top: 5%;
+}
+.logo-text{
+
+}
+
+.logoo{
+  width: 14rem;
+  height: 14rem;
+  position: absolute;
+  top:4rem;
+  text-align: center;
+  border-radius: 100%;
+  background-image: url(Panashe.png);
+  background-size: 14rem 14rem;
+  background-position: center;
+  margin-left: 47%;
+  right: auto;
+  z-index: 1;
+  border-style: solid;
+  border-color: #f6eec7;
+  animation-name: load;
+  animation-duration: 1.5s;
+}
+
+.about{
+  height: 200px;
+  width: 200px;
+  background-position: center;
+  background-image: url(people.png);
+    background-size: 25rem 25rem;
+}
+
+.one{
+    transition: 0.7s;
+
+  background-color: grey;
+  text-align: center;
+}
+.one:hover{
+  background-color: #3b5998;
+}
+
+.two{
+    transition: 0.7s;
+  background-color: silver;
+  text-align: center;
+}
+.two:hover{
+  background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+
+.three{
+  text-align: center;
+  background-color: white;
+    transition: 0.7s;
+}
+.three:hover{
+background-color: #1DA1F2;
+}
+.fab{
+  transform:scale(3.5);
+  padding-top: 40px;
+  text-align: center;
+color: #cbe2b0;
+}
+
+.fa-instagram{
+  padding-top: 34px;
+}
+
+.rowcontact{
+  height: 200px;
+  display: grid;
+  grid-template-columns: 20% 20% 20%
+}
+
+@keyframes load {
+   0%{transform: scale(0); height: 530px; border-radius: 0px}
+
+   50%{height:530px;border-radius: 0px}
+  /* 25%{transform: scale(0.3); top: 0rem}
+  50%{transform: scale(0.3); top: 6rem}
+  /* 75%{transform: scale(0.3); top: 3.5rem} */
+  100%{transform: scale(1); top: 4rem; border-radius: 100%}
+
+
+
+}
+
+.card-img-top:hover{
+  animation-name: shrink;
+  animation-duration: 1s;
+}
+@keyframes shrink {
+  from{transform: scale(1);}
+  to{transform: scale(0.8);}
+}
+.animat{
+padding-top: 5rem;
+animation-name: boom;
+animation-duration: 2s;
+}
+@keyframes boom {
+0%{opacity: 0}
+50%{opacity:0}
+100%{opacity: 1}
+}
+.bg-dark{
+  background-color: #880000;
+  color: white;
+}
+/* #bf1a04 */
+.s{
+  background-image: url(second.png);
+  height: 2.5rem;
+
+}
+.pos{
+  width: 46.9rem;
+  margin-left: auto;
+  margin-right: auto;
+}
