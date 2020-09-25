@@ -1,6 +1,7 @@
 # Blog-concept
 
-This is a NodeJS application to simply demonstrate the concept behind blog website. It uses the MongoDB database to store the blog posts written by the the blogger. Only the blogger writes the blogs with a special access. 
+This is a NodeJS application to simply demonstrate the concept behind the blog website. It uses the MongoDB database to store the blog posts written by the blogger. Only the blogger writes the blogs with special access. 
+
 
 Screenshots of the App
 
