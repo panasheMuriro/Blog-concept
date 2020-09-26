@@ -5,7 +5,7 @@ The owner of the blog is the one who is able to compose a post, the visitors of 
 page will only see a read-only blog
 
 # How it works
-The blogger opens  the app and type "/compose" at the end of the link <br>
+The blogger opens  the app and type "/compose" at the end of the link
 Compose a blog and publish it
 
 # Languages used
